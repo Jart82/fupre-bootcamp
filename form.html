@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Volunteer Hours  Submission form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <h1>Volunteer Hours Submission form</h1>
+    <hr>
+    <form class="fp" action="index.html" method="post">
+      <section>
+        <h3>Name</h3>
+        <div class="c1">
+          <input id="fname" type="text" name="" value=""><br>
+          <label for="fname">First Name</label>
+        </div>
+        <div class="c2">
+          <input id="lname" type="text" name="" value=""><br>
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="c3">
+          <h3>Date of Volunteer</h3>
+          <input id="date" type="date" placeholder="MM-DD-YYYY" name="" value=""><br>
+          <label for="date">Date</label>
+        </div>
+        <div class="c4">
+          <h3>How many hours have you volunteered?</h3>
+          <select class="drop"  name="Please Select">
+            <option value="1">One hour</option>
+            <option value="2">Two hour</option>
+            <option value="2">Three hour</option>
+          </select>
+        </div>
+        <div class="c5">
+          <h3>What event or activities were this volunteer for?</h3>
+          <textarea name="name" rows="8" cols="150"></textarea>
+        </div>
+        <hr>
+        <button type="button" name="button">Submit</button>
+    </form>
+  </body>
+</html>

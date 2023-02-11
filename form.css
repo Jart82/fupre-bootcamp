@@ -1,0 +1,50 @@
+body{
+  padding: 10px;
+}
+.fp{
+  padding-left: 70px;
+}
+h1{
+  text-align: center;
+}
+.c1{
+  display: inline-block;
+  width: 40%;
+  float: left;
+}
+.c2{
+  display: inline-block;
+  width: 40%;
+  margin-right: 100px;
+}
+#fname{
+  width: 70%;
+  height: 25px;
+  margin-bottom: 10px;
+}
+#lname{
+  width: 70%;
+  height: 25px;
+  margin-bottom: 10px;
+}
+#date{
+  width: 28%;
+  height: 25px;
+  margin-bottom: 10px;
+}
+.drop{
+  width: 28%;
+  height: 25px;
+}
+.c5{
+  padding: 10px;
+}
+button{
+  width: 170px;
+  padding: 10px;
+  margin-left: 40%;
+  margin-top: 10px;
+  background-color: rgb(101, 214, 73);
+  color: white;
+  border-style: none;
+}
